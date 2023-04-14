@@ -16,4 +16,14 @@ return {
     opts = {},
     event = "User AstroFile",
   },
+  {
+    "NvChad/nvim-colorizer.lua",
+    opts = {
+      user_default_options = {
+        names = true,
+        tailwind = true,
+      },
+    },
+    event = "User AstroFile",
+  }
 }

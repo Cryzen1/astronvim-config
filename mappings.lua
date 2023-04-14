@@ -25,4 +25,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  i = {
+    ["<Tab>"] = { "<cmd>lua require('luasnip').jump(1)<CR>", desc = "Jump to next placeholder in luasnip snippet"}
+  }
 }
