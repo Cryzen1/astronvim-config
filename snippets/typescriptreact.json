@@ -1,0 +1,50 @@
+{
+  "React arrow function with default export": {
+    "scope": "typescript, typescriptreact",
+    "prefix": "rafe",
+    "body": [
+      "const $TM_FILENAME_BASE = () => {",
+      "    ${1:}",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "Creates arrow function and creates default export of this function"
+  },
+  "React arrow function with parameters and default export": {
+    "scope": "typescript, typescriptreact",
+    "prefix": "rafpe",
+    "body": [
+      "const $TM_FILENAME_BASE = (${1:params}:${2:type}) => {",
+      "    ${3:}",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "Creates arrow function with parameters and creates default export of this function"
+  },
+  "React arrow async function with default export": {
+    "scope": "typescript, typescriptreact",
+    "prefix": "raafe",
+    "body": [
+      "const $TM_FILENAME_BASE = async () => {",
+      "    ${1:}",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "Creates arrow async function and creates default export of this function"
+  },
+  "React arrow async function with parameters and default export": {
+    "scope": "typescript, typescriptreact",
+    "prefix": "raafpe",
+    "body": [
+      "const $TM_FILENAME_BASE = async (${1:params}:${2:type}) => {",
+      "    ${3:}",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "Creates arrow async function with parameters and creates default export of this function"
+  }
+}
