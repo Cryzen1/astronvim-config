@@ -11,13 +11,17 @@ return {
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
-        require("astronvim.utils.status").heirline.buffer_picker(function(bufnr) require("astronvim.utils.buffer").close(bufnr) end)
+        require("astronvim.utils.status").heirline.buffer_picker(
+          function(bufnr) require("astronvim.utils.buffer").close(bufnr) end
+        )
       end,
       desc = "Pick to close",
     },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<A-j>"] = { "<cmd>m .-2<cr>", desc = "Move line down" },
+    ["<A-k>"] = { "<cmd>m .+1<cr>", desc = "Move line up" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
@@ -25,7 +29,4 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
-  i = {
-    ["<Tab>"] = { "<cmd>lua require('luasnip').jump(1)<CR>", desc = "Jump to next placeholder in luasnip snippet"}
-  }
 }
