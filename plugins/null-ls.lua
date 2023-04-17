@@ -10,7 +10,7 @@ return {
     config.sources = {
       -- Set a formatter
       null_ls.builtins.formatting.stylua,
-      null_ls.builtins.formatting.prettier.with { extra_args = { "--single-quote", "--jsx-single-quote", "--print-width 200" } },
+      null_ls.builtins.formatting.prettier.with { extra_args = { "--single-quote", "--jsx-single-quote", "--print-width=200" } },
     }
     return config -- return final config table
   end,
