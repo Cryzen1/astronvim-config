@@ -20,8 +20,8 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
-    ["<A-j>"] = { "<cmd>m .-2<cr>", desc = "Move line down" },
-    ["<A-k>"] = { "<cmd>m .+1<cr>", desc = "Move line up" },
+    ["<A-k>"] = { "<cmd>m .-2<cr>", desc = "Move line down" },
+    ["<A-j>"] = { "<cmd>m .+1<cr>", desc = "Move line up" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
