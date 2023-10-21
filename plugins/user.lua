@@ -25,5 +25,5 @@ return {
       },
     },
     event = "User AstroFile",
-  }
+  },
 }

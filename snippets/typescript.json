@@ -1,82 +1,42 @@
 {
   "Arrow function": {
-    "scope": "typescript, typescriptreact",
     "prefix": "af",
     "body": ["const ${1:name} = () => {", "    ${2:}", "}"],
     "description": "Creates arrow function"
   },
   "Arrow function with parameters": {
-    "scope": "typescript, typescriptreact",
     "prefix": "afp",
-    "body": [
-      "const ${1:name} = (${2:params}:${3:type}) => {",
-      "    ${4:}",
-      "}"
-    ],
+    "body": ["const ${1:name} = (${2:params}:${3:type}) => {", "    ${4:}", "}"],
     "description": "Creates arrow function with parameters"
   },
   "Arrow function with default export": {
-    "scope": "typescript, typescriptreact",
     "prefix": "afe",
-    "body": [
-      "const ${1:name} = () => {",
-      "    ${2:}",
-      "}",
-      "",
-      "export default ${1};"
-    ],
+    "body": ["const ${1:name} = () => {", "    ${2:}", "}", "", "export default ${1};"],
     "description": "Creates arrow function and creates default export of this function"
   },
   "Arrow function with parameters and default export": {
-    "scope": "typescript, typescriptreact",
     "prefix": "afpe",
-    "body": [
-      "const ${1:name} = (${2:params}:${3:type}) => {",
-      "    ${4:}",
-      "}",
-      "",
-      "export default ${1};"
-    ],
+    "body": ["const ${1:name} = (${2:params}:${3:type}) => {", "    ${4:}", "}", "", "export default ${1};"],
     "description": "Creates arrow function with parameters and creates default export of this function"
   },
   "Arrow async function": {
-    "scope": "typescript, typescriptreact",
     "prefix": "aaf",
     "body": ["const ${1:name} = async () => {", "    ${2:}", "}"],
     "description": "Creates arrow async function"
   },
   "Arrow async function with parameters": {
-    "scope": "typescript, typescriptreact",
     "prefix": "aafp",
-    "body": [
-      "const ${1:name} = async (${2:params}:${3:type}) => {",
-      "    ${4:}",
-      "}"
-    ],
+    "body": ["const ${1:name} = async (${2:params}:${3:type}) => {", "    ${4:}", "}"],
     "description": "Creates arrow async function with parameters"
   },
   "Arrow async function with default export": {
-    "scope": "typescript, typescriptreact",
     "prefix": "aafe",
-    "body": [
-      "const ${1:name} = async () => {",
-      "    ${2:}",
-      "}",
-      "",
-      "export default ${1};"
-    ],
+    "body": ["const ${1:name} = async () => {", "    ${2:}", "}", "", "export default ${1};"],
     "description": "Creates arrow async function and creates default export of this function"
   },
   "Arrow async function with parameters and default export": {
-    "scope": "typescript, typescriptreact",
     "prefix": "aafpe",
-    "body": [
-      "const ${1:name} = async (${2:params}:${3:type}) => {",
-      "    ${4:}",
-      "}",
-      "",
-      "export default ${1};"
-    ],
+    "body": ["const ${1:name} = async (${2:params}:${3:type}) => {", "    ${4:}", "}", "", "export default ${1};"],
     "description": "Creates arrow async function with parameters and creates default export of this function"
   }
 }
